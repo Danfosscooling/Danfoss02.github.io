@@ -7,7 +7,7 @@ body {
 
 
 #card {
-  margin: 3em auto;
+  margin: 0em auto;
   display: flex;
   flex-direction: column;
   max-width: 1800px;
@@ -43,3 +43,12 @@ model-viewer {
   text-decoration: none;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.5em;
+}
